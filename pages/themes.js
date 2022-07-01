@@ -1,9 +1,11 @@
-import Link from "next/link";
+import Layout from "../components/Layout";
+import { NextSeo } from "next-seo";
 
 export default function ThemesPage() {
   return (
-    <div>
-      Curated Themes <Link href="/">Home</Link>
-    </div>
+    <Layout>
+      <NextSeo title="Themes" description="Curated Themes Made by Fans" />
+      <div>Curated Themes</div>
+    </Layout>
   );
 }

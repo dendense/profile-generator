@@ -1,14 +1,15 @@
 import Layout from "../components/Layout";
-import { NextSeo } from "next-seo";
 
 export default function IndexPage() {
   return (
-    <Layout>
-      <NextSeo
-        title="Profile Generator"
-        description="Create Your Free Profile Page"
-      />
-      <div>Welcome to Profile Generator.</div>
+    <Layout
+      title="🔖 Profile Generator"
+      description="Create Your Free Profile Page"
+    >
+      <div>Picture Profile</div>
+      <div>Short Bio</div>
+      <div>Social Links</div>
+      <div>Showcase</div>
     </Layout>
   );
 }

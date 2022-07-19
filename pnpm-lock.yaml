@@ -2,7 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': '>=7.0.0 <8.0.0'
+  '@chakra-ui/icons': ^2.0.4
   '@chakra-ui/react': ^2.2.4
+  '@chakra-ui/system': ^2.2.2
   '@emotion/react': ^11
   '@emotion/styled': ^11
   '@popperjs/core': ^2.10.2
@@ -16,7 +18,9 @@ specifiers:
 
 dependencies:
   '@babel/core': 7.18.9
+  '@chakra-ui/icons': 2.0.4_yvhl5ql2jypczm6naccxme2hbi
   '@chakra-ui/react': 2.2.4_mt2tfc76f6zlzjyuwlw3x64f5a
+  '@chakra-ui/system': 2.2.2_fdnqutfacy7v3gmlcm66flps3q
   '@emotion/react': 11.9.3_lxeixztqul6ae7cp3cpkyxlhzm
   '@emotion/styled': 11.9.3_lrdyawhmscavswn6eqk2uibmxm
   '@popperjs/core': 2.11.5
@@ -476,6 +480,18 @@ packages:
     dependencies:
       '@chakra-ui/system': 2.2.2_fdnqutfacy7v3gmlcm66flps3q
       '@chakra-ui/utils': 2.0.4
+      react: 18.2.0
+    dev: false
+
+  /@chakra-ui/icons/2.0.4_yvhl5ql2jypczm6naccxme2hbi:
+    resolution: {integrity: sha512-/Xh6UtIilFhSCxZ6pKmB3zaatvGMc+IAvPb0TvlegWfNaLI7XwHWkEoK+GxYXV02wT/yqmup2gd41/OL3S0YLg==}
+    peerDependencies:
+      '@chakra-ui/system': '>=2.0.0-next.0'
+      react: '>=18'
+    dependencies:
+      '@chakra-ui/icon': 3.0.4_yvhl5ql2jypczm6naccxme2hbi
+      '@chakra-ui/system': 2.2.2_fdnqutfacy7v3gmlcm66flps3q
+      '@types/react': 18.0.15
       react: 18.2.0
     dev: false
 
@@ -1398,6 +1414,22 @@ packages:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: false
 
+  /@types/prop-types/15.7.5:
+    resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
+    dev: false
+
+  /@types/react/18.0.15:
+    resolution: {integrity: sha512-iz3BtLuIYH1uWdsv6wXYdhozhqj20oD4/Hk2DNXIn1kFsmp9x8d9QB6FnPhfkbhd2PgEONt9Q1x/ebkwjfFLow==}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.1.0
+    dev: false
+
+  /@types/scheduler/0.16.2:
+    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: false
+
   /@zag-js/focus-visible/0.1.0:
     resolution: {integrity: sha512-PeaBcTmdZWcFf7n1aM+oiOdZc+sy14qi0emPIeUuGMTjbP0xLGrZu43kdpHnWSXy7/r4Ubp/vlg50MCV8+9Isg==}
     dev: false
@@ -1458,10 +1490,6 @@ packages:
   /callsites/3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
-    dev: false
-
-  /caniuse-lite/1.0.30001361:
-    resolution: {integrity: sha512-ybhCrjNtkFji1/Wto6SSJKkWk6kZgVQsDq5QI83SafsF6FXv2JB4df9eEdH6g8sdGgqTXrFLjAxqBGgYoU3azQ==}
     dev: false
 
   /caniuse-lite/1.0.30001367:
@@ -1813,7 +1841,7 @@ packages:
     dependencies:
       '@next/env': 12.2.2
       '@swc/helpers': 0.4.2
-      caniuse-lite: 1.0.30001361
+      caniuse-lite: 1.0.30001367
       postcss: 8.4.5
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0

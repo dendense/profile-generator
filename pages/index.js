@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Card from "../components/Card";
 
 export default function IndexPage() {
   return (
@@ -6,6 +7,7 @@ export default function IndexPage() {
       title="🔖 Profile Generator"
       description="Create Your Free Profile Page"
     >
+      <Card />
       <div className="card" style={{ width: "18rem" }}>
         Picture Profile
       </div>

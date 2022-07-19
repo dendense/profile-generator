@@ -6,7 +6,9 @@ export default function IndexPage() {
       title="🔖 Profile Generator"
       description="Create Your Free Profile Page"
     >
-      <div>Picture Profile</div>
+      <div className="card" style={{ width: "18rem" }}>
+        Picture Profile
+      </div>
       <div>Short Bio</div>
       <div>Social Links</div>
       <div>Showcase</div>

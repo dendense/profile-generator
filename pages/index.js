@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
-import Card from "../components/Card";
+
+import { Grid, GridItem, Box } from "@chakra-ui/react";
 
 export default function IndexPage() {
   return (
@@ -7,13 +8,20 @@ export default function IndexPage() {
       title="🔖 Profile Generator"
       description="Create Your Free Profile Page"
     >
-      <Card />
-      <div className="card" style={{ width: "18rem" }}>
-        Picture Profile
-      </div>
-      <div>Short Bio</div>
-      <div>Social Links</div>
-      <div>Showcase</div>
+      <Box borderWidth="1px" borderRadius="lg" marginTop="1em">
+        <Grid
+          style={{ margin: "0.5rem" }}
+          h="200px"
+          templateRows="repeat(2, 1fr)"
+          templateColumns="repeat(5, 1fr)"
+          gap={4}
+        >
+          <GridItem rowSpan={2} colSpan={1} bg="tomato" borderRadius="lg" />
+          <GridItem colSpan={2} bg="papayawhip" borderRadius="lg" />
+          <GridItem colSpan={2} bg="papayawhip" borderRadius="lg" />
+          <GridItem colSpan={4} bg="tomato" borderRadius="lg" />
+        </Grid>
+      </Box>
     </Layout>
   );
 }

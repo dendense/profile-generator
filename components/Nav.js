@@ -12,7 +12,7 @@ import {
 const Nav = () => (
   <Flex minWidth="max-content" alignItems="center" gap="2">
     <Box p="2">
-      <Heading size="md">PROFILER</Heading>
+      <Heading size="md">PDE37</Heading>
     </Box>
     <Spacer />
     <ButtonGroup gap="2">

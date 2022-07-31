@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Image, Link, Text, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Image, Link, Text } from "@chakra-ui/react";
 
 import Layout from "../components/Layout";
 
@@ -13,7 +13,13 @@ export default function Index() {
             borderRadius="lg"
             flexShrink={0}
             width={{ md: 40 }}
-          ></Box>
+          >
+            <Image
+              borderRadius="lg"
+              src="https://i.ibb.co/DLbS3FB/E1-UYVEEVo-AI6e-6.jpg"
+              alt="Foto cewe"
+            />
+          </Box>
           <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
             <Box
               bg="green"

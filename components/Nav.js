@@ -9,10 +9,12 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 
+import Data from "../json/data.json";
+
 const Nav = () => (
   <Flex minWidth="max-content" alignItems="center" gap="2">
     <Box p="2">
-      <Heading size="md">PDE37</Heading>
+      <Heading size="md">{Data.bio.sitename}</Heading>
     </Box>
     <Spacer />
     <ButtonGroup gap="2">

@@ -14,7 +14,7 @@ export default function Index() {
             <Image
               borderRadius="lg"
               src="https://i.ibb.co/ypktsr4/DSCF6559.jpg"
-              alt="Foto cewe"
+              alt="Foto Profile"
             />
             <Button colorScheme="yellow" mt={2} w="100%">
               Buy me a Coffee

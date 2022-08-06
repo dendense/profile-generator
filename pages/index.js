@@ -4,6 +4,7 @@ import { Box, Image, Link, Button } from "@chakra-ui/react";
 import Profile from "../components/Profile";
 import Social from "../components/Social";
 import Layout from "../components/Layout";
+import Posts from "../components/Posts";
 import DataProfile from "../json/data.json";
 
 export default function Index() {
@@ -14,7 +15,7 @@ export default function Index() {
           <Box borderRadius="lg" flexShrink={0} width={{ md: 40 }}>
             <Image
               borderRadius="lg"
-              src="https://i.ibb.co/ypktsr4/DSCF6559.jpg"
+              src={DataProfile.bio.imageUrl}
               alt="Foto Profile"
             />
             <Link href={DataProfile.social.trakteer} isExternal>
@@ -38,8 +39,9 @@ export default function Index() {
                 <Social />
               </Box>
             </Box>
-            <Box w="100%" p={4} borderRadius="lg">
+            <Box w="100%" p={3} borderRadius="lg">
               Latest Works
+              <Posts />
             </Box>
           </Box>
         </Box>

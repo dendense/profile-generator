@@ -5,7 +5,7 @@
 </p>
 Simple Profile Generator using NextJS that create simple card of your Bio with Markdown. Just simply add every label like Photo Profile, Title, Short Note, Social Media Account, and Simple Showcase. Feel free to use and deploy to your beloved deploy services.
 
-## Progress 70%
+## Progress 85%
 
 <p align="center">
 Live Demo on https://profile-generator.vercel.app/

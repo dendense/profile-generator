@@ -1,7 +1,7 @@
 {
   "bio": {
     "sitename": "DENDENSE",
-    "picture": "https://imgbb.com/",
+    "imageUrl": "https://i.ibb.co/ypktsr4/DSCF6559.jpg",
     "name": "Deny Farras Febriyanto",
     "birth": "10/02/2000",
     "rank": "2nd Sergeant",
@@ -13,5 +13,12 @@
     "github": "http://github.com/dendense",
     "instagram": "http://instagram.com/deny_desu",
     "trakteer": "https://trakteer.id/dendense-project"
+  },
+  "limitShow": 4,
+  "showcases": {
+    "id": 1,
+    "title": "Profile Generator",
+    "siteUrl": "https://github.com/dendense/profile-generator",
+    "imageUrl": "https://cdn.pixabay.com/photo/2022/04/13/01/44/plum-blossoms-7129237_1280.jpg"
   }
 }

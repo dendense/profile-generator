@@ -1,13 +1,5 @@
 import * as React from "react";
-import {
-  Box,
-  Table,
-  Tbody,
-  Tr,
-  Td,
-  TableCaption,
-  TableContainer,
-} from "@chakra-ui/react";
+import { Box, Table, Tbody, Tr, Td, TableContainer } from "@chakra-ui/react";
 
 import DataProfile from "../json/data.json";
 
@@ -38,7 +30,6 @@ export default function Profile() {
               <Td>{DataProfile.bio.horoscope}</Td>
             </Tr>
           </Tbody>
-          <TableCaption>Simple props about me</TableCaption>
         </Table>
       </TableContainer>
     </Box>

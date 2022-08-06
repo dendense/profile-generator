@@ -1,9 +1,10 @@
 import * as React from "react";
-import { Box, Image, Link, Text, Button } from "@chakra-ui/react";
+import { Box, Image, Link, Button } from "@chakra-ui/react";
 
 import Profile from "../components/Profile";
 import Social from "../components/Social";
 import Layout from "../components/Layout";
+import DataProfile from "../json/data.json";
 
 export default function Index() {
   return (
@@ -16,19 +17,24 @@ export default function Index() {
               src="https://i.ibb.co/ypktsr4/DSCF6559.jpg"
               alt="Foto Profile"
             />
-            <Button colorScheme="yellow" mt={2} w="100%">
-              Buy me a Coffee
-            </Button>
-            <Button colorScheme="teal" mt={2} w="100%">
-              Share
-            </Button>
+            <Link href={DataProfile.social.trakteer} isExternal>
+              <Button colorScheme="yellow" mt={2} w="100%">
+                Buy me a Coffee
+              </Button>
+            </Link>
           </Box>
-          <Box mt={{ base: 4, md: 0 }} ml={{ md: 4 }} w="100%">
+          <Box mt={{ base: 4, md: 0 }} ml={{ md: 2 }} w="100%">
             <Box display={{ md: "flex" }} w="100%" gap="2">
               <Box w="100%" p={4} borderWidth="1px" borderRadius="lg">
                 <Profile />
               </Box>
-              <Box w="100%" p={4} borderWidth="1px" borderRadius="lg">
+              <Box
+                mt={{ base: 4, md: 0 }}
+                w="100%"
+                p={4}
+                borderWidth="1px"
+                borderRadius="lg"
+              >
                 <Social />
               </Box>
             </Box>

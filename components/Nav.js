@@ -3,6 +3,7 @@ import * as React from "react";
 import {
   Flex,
   Box,
+  Link,
   Heading,
   Button,
   ButtonGroup,
@@ -18,7 +19,13 @@ const Nav = () => (
     </Box>
     <Spacer />
     <ButtonGroup gap="2">
-      <Button colorScheme="teal">Create Yours</Button>
+      <Link
+        href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdendense%2Fprofile-generator"
+        target="_blank"
+        isExternal
+      >
+        <Button colorScheme="teal">Make Yours</Button>
+      </Link>
     </ButtonGroup>
   </Flex>
 );

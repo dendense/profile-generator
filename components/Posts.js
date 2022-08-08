@@ -1,8 +1,7 @@
 import * as React from "react";
 import { Box, Image } from "@chakra-ui/react";
-
-import DataPosts from "../json/data.json";
 import { Link, Button } from "@chakra-ui/react";
+import DataPosts from "../json/data.json";
 
 export default function Posts() {
   return (

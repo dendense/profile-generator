@@ -44,7 +44,7 @@ Just simply [click here](https://vercel.com/new/clone?repository-url=https://git
 			"siteUrl": "https://github.com/dendense/Boilerplate-NetlifyCMS",
 			"imageUrl": "https://cdn.pixabay.com/photo/2022/04/13/01/44/plum-blossoms-7129237_1280.jpg"
 		},
-	],
+	]
 	}
 }
 ```

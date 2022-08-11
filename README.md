@@ -13,40 +13,40 @@ Just simply [click here](https://vercel.com/new/clone?repository-url=https://git
 **`DATA.JSON`**
 ```json
 {
-	"bio": {
-		"sitename": "DENDENSE",
-		"imageUrl": "https://i.ibb.co/ypktsr4/DSCF6559.jpg",
-		"name": "Deny Farras Febriyanto",
-		"birth": "10/02/2000",
-		"rank": "2nd Sergeant",
-		"horoscope": "Aquarius"
-	},
+  "bio": {
+    "sitename": "DENDENSE",
+    "imageUrl": "https://i.ibb.co/ypktsr4/DSCF6559.jpg",
+    "name": "Deny Farras Febriyanto",
+    "birth": "10/02/2000",
+    "rank": "2nd Sergeant",
+    "horoscope": "Aquarius"
+  },
 
-	"social": {
-		"facebook": "http://fb.com/deniyanto123",
-		"twitter": "http://twitter.com/deny_desu_",
-		"github": "http://github.com/dendense",
-		"instagram": "http://instagram.com/deny_desu",
-		"trakteer": "https://trakteer.id/dendense-project"
-	},
+  "social": {
+    "facebook": "http://fb.com/deniyanto123",
+    "twitter": "http://twitter.com/deny_desu_",
+    "github": "http://github.com/dendense",
+    "instagram": "http://instagram.com/deny_desu",
+    "trakteer": "https://trakteer.id/dendense-project"
+  },
 
-	"limitShow": 4,
-	"showcases": [
-		{
-			"id": 1,
-			"title": "Profile Generator",
-			"siteUrl": "https://github.com/dendense/profile-generator",
-			"imageUrl": "https://cdn.pixabay.com/photo/2022/04/13/01/44/plum-blossoms-7129237_1280.jpg"
-		},
-		{
-			"id": 2,
-			"title": "Boilerplate CMS",
-			"siteUrl": "https://github.com/dendense/Boilerplate-NetlifyCMS",
-			"imageUrl": "https://cdn.pixabay.com/photo/2022/04/13/01/44/plum-blossoms-7129237_1280.jpg"
-		},
-	]
-	}
+  "limitShow": 4,
+  "showcases": [
+    {
+      "id": 1,
+      "title": "Profile Generator",
+      "siteUrl": "https://github.com/dendense/profile-generator",
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/04/13/01/44/plum-blossoms-7129237_1280.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Boilerplate CMS",
+      "siteUrl": "https://github.com/dendense/Boilerplate-NetlifyCMS",
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/04/13/01/44/plum-blossoms-7129237_1280.jpg"
+    }
+  ]
 }
+
 ```
 
 ### Showcase Posts

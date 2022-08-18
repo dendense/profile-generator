@@ -5,11 +5,13 @@ import Profile from "../components/Profile";
 import Social from "../components/Social";
 import Layout from "../components/Layout";
 import Posts from "../components/Posts";
+import Analytics from "../components/Analytics";
 import DataProfile from "../json/data.json";
 
 export default function Index() {
   return (
     <Layout title="Dendense" description="Welcome to DensLAB">
+      <Analytics />
       <Box borderWidth="1px" borderRadius="lg" mt="3">
         <Box p={4} display={{ md: "flex" }}>
           <Box borderRadius="lg" flexShrink={0} width={{ md: 40 }}>

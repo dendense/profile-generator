@@ -21,7 +21,7 @@ export default function Posts() {
           <Link href={i.siteUrl} isExternal>
             <Button
               borderRadius="0"
-              colorScheme="blue"
+              colorScheme="teal"
               fontWeight="semibold"
               p="3"
               w="100%"

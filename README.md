@@ -11,6 +11,7 @@ Simple Profile Generator using NextJS that create simple card of your Bio with M
 Just simply [click here](https://vercel.com/new/clone?repository-url=https://github.com/dendense/profile-generator) to deploy with Vercel. Jump to **/json/data.json** and change every variable as you want.
 
 **`DATA.JSON`**
+
 ```json
 {
   "bio": {
@@ -46,7 +47,6 @@ Just simply [click here](https://vercel.com/new/clone?repository-url=https://git
     }
   ]
 }
-
 ```
 
 ### Showcase Posts

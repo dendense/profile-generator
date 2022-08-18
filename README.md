@@ -1,10 +1,10 @@
-# Profile Generator (v0.1)
+# Profile Generator (v1.0)
 
 <p  align="center">
-<img  src="https://i.ibb.co/gjj1Wzq/Profile-Generator.jpg"/>
+<img src="https://i.ibb.co/gjj1Wzq/Profile-Generator.jpg"/>
 </p>
 
-Simple Profile Generator using NextJS that create simple card of your Bio with Markdown. Just simply add every label like Photo Profile, Title, Short Note, Social Media Account, and Simple Showcase. Feel free to use and deploy to your beloved deploy services. Live Demo on https://profile-generator.vercel.app/
+Simple Profile Generator using NextJS that create simple card of your Bio with JSON, we are used [Chakra-UI](https://chakra-ui.com/) for styling components. Just simply add every label like Photo Profile, Title, Short Note, Social Media Account, and Simple Showcase. Feel free to use and deploy to your beloved deploy services. Live Demo on https://profile-generator.vercel.app/
 
 # How to Use
 
@@ -53,4 +53,6 @@ Just simply [click here](https://vercel.com/new/clone?repository-url=https://git
 
 You can add another posts with adding more line in showcases scope, we recommend to use [ImageBB](https://imgbb.com/upload) to host you pictures
 
-## Progress 90%
+## Progress 100% (READY TO USE)
+
+We're gonna make update and still up for development, stay tune!

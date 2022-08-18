@@ -9,7 +9,7 @@ import DataProfile from "../json/data.json";
 
 export default function Index() {
   return (
-    <Layout title="Profile Generator" description="Profile Generator">
+    <Layout title="Dendense" description="Welcome to DensLAB">
       <Box borderWidth="1px" borderRadius="lg" mt="3">
         <Box p={4} display={{ md: "flex" }}>
           <Box borderRadius="lg" flexShrink={0} width={{ md: 40 }}>

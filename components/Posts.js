@@ -1,18 +1,16 @@
 import * as React from "react";
-import { Box, Image } from "@chakra-ui/react";
-import { Link, Button } from "@chakra-ui/react";
+import { Box, Image, Link, Button, SimpleGrid } from "@chakra-ui/react";
 import myData from "../json/data.json";
 
 export default function Posts() {
   const data = myData.showcases;
   console.log(data);
   return (
-    <Box display={{ md: "flex" }} w="100%" gap="2">
+    <SimpleGrid columns={[1, null, 2]} spacing={2}>
       {data.map((i) => (
         <Box
           id={i.id}
           w="100%"
-          mt={{ base: 4, md: 2 }}
           borderWidth="1px"
           borderRadius="lg"
           overflow="hidden"
@@ -31,6 +29,6 @@ export default function Posts() {
           </Link>
         </Box>
       ))}
-    </Box>
+    </SimpleGrid>
   );
 }

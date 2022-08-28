@@ -42,7 +42,7 @@ export default function Index() {
               </Box>
             </Box>
             <Box w="100%" p={3} borderRadius="lg">
-              Latest Works
+              <Box mb={2}>Latest Works</Box>
               <Posts />
             </Box>
           </Box>

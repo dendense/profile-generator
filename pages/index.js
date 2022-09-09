@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Box, Image, Link, Button } from "@chakra-ui/react";
+import Link from "next/link";
+import { Box, Image, Button } from "@chakra-ui/react";
 
 import Profile from "../components/Profile";
 import Social from "../components/Social";
